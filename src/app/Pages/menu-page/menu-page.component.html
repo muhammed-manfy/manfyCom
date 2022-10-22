@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+      <div class="col-lg-6" *ngIf="getMenu">
+            <img src="{{getMenu[0].foodImage}}" alt="FoodImage" width="100%">
+            <h1 class="mt-3">{{getMenu[0].foodName}}</h1>
+            <p>{{getMenu[0].foodDetails}}</p>
+            <p>{{getMenu[0].foodPrice|currency}}</p>
+      </div>
+
+       <div class="col-lg-6 mt-2">
+
+          <h1 class="text-muted">Enter Your Details:</h1>
+          <form class="form-order">
+                <input type="text" class="form-control" placeholder="Enter your FullName"/>
+                <input type="text" class="form-control" placeholder="Enter your Mobile"/>
+                <textarea rows="3" class="form-control" placeholder="Enter your Address"></textarea>
+                <button class="btn btn-md btn-dark mt-3">Place Order</button>&nbsp;
+                <a routerLink="../../Menu" class="btn btn-md btn-dark mt-3"> Back to Manu</a>
+          </form>
+
+       </div>
+  </div>
+</div>
