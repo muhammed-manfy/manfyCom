@@ -1,16 +1,3 @@
-.about img
-{
-  position:absolute;
-  top: 10%;
-  left: -20%;
-  width: 600px;
-  border-radius: 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-h1
-{
-  font-weight: 600;
-  font-family: Arial;
-  font-size: 30px;
-  font-display: inherit;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c77d13bc2bdc169e7a15619d92aa9ab51e766ce7338150387dd5ecf9f1045029
+size 274

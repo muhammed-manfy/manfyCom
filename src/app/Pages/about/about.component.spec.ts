@@ -1,25 +1,3 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { AboutComponent } from './about.component';
-
-describe('AboutComponent', () => {
-  let component: AboutComponent;
-  let fixture: ComponentFixture<AboutComponent>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ AboutComponent ]
-    })
-    .compileComponents();
-  });
-
-  beforeEach(() => {
-    fixture = TestBed.createComponent(AboutComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:37d4ee5c51fb5ff995f9bde98df6b0ad4b87f7b68cfcc691419fea3b55f6d854
+size 619

@@ -1,12 +1,3 @@
-.navbar-light .navbar-nav .nav-link.active-link
-{
-  font-weight:bold;
-  color:var(--primary-color);
-  text-decoration: underline;
-}
-
-.navbar-light .navbar-nav .nav-link
-{
-  color:var(--secandry-color);
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7e8804f225d91b26011e80207c4058d6dc33dbb906b1c39262e0eff970d5c67
+size 205

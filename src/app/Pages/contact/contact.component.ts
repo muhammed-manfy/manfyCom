@@ -1,15 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-
-@Component({
-  selector: 'app-contact',
-  templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css']
-})
-export class ContactComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:eca93c0783141192dbb48d04a69b289ee0314dd3661ec0eda5dd8e5093e2113c
+size 279

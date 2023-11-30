@@ -1,33 +1,3 @@
-.foodBox
-{
-padding: 10px 10px;
-}
-.foodBox img
-{
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-.foodBox h1
-{
-  font-size:18px;
-  padding: 10px 5px;
-  font-weight: bold;
-}
-
-.buyBtn
-{
-  background-color:var(--primary-color);
-  text-decoration: none;
-  color:#000;
-  padding:10px 20px;
-  font-size: 16px;
-  font-family: Georgia, 'Times New Roman';
-  border-radius: 15px;
-}
-.buyBtn i
-{
-    vertical-align: middle;
-    padding: 0px 5px;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e06818524534e49d09e91cfbf243c6aba891c5a70896d9859eda8937267f8d15
+size 465

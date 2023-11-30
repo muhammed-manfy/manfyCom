@@ -1,25 +1,3 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { MenuPageComponent } from './menu-page.component';
-
-describe('MenuPageComponent', () => {
-  let component: MenuPageComponent;
-  let fixture: ComponentFixture<MenuPageComponent>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ MenuPageComponent ]
-    })
-    .compileComponents();
-  });
-
-  beforeEach(() => {
-    fixture = TestBed.createComponent(MenuPageComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a06ba7d63ce95100e6a1dcb9c3e2a5151a3d0b4e6462af46a86b74de5acd1b2
+size 641

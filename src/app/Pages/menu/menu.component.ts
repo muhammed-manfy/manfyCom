@@ -1,19 +1,3 @@
-import { Component, OnInit } from '@angular/core';
-import { OdrerDetailsService } from 'src/app/services/odrer-details.service';
-
-
-@Component({
-  selector: 'app-menu',
-  templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.css']
-})
-export class MenuComponent implements OnInit {
-
-  constructor(private service:OdrerDetailsService){}
-    foodData:any;
-  ngOnInit(): void
-   {
-     this.foodData=this.service.foodDetails;
-   }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:154940d0ae68c129d59b00b1bdc9ac998e1c925e87fc8468a011ef6a9e618ce9
+size 445
