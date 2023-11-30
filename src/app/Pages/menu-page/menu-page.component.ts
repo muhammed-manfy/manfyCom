@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup ,  FormControl} from '@angular/forms';
+import { UntypedFormGroup ,  UntypedFormControl} from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { OdrerDetailsService } from 'src/app/services/odrer-details.service';
 
@@ -12,13 +12,13 @@ import { OdrerDetailsService } from 'src/app/services/odrer-details.service';
 export class MenuPageComponent implements OnInit {
   getMenuId:any;
   getMenu:any;
-  orderForm!:FormGroup;
+  orderForm!:UntypedFormGroup;
   orderCheckbox:any;
   constructor(private parameter:ActivatedRoute,private service:OdrerDetailsService) { 
-    this.orderForm = new FormGroup ({
-      fullname: new FormControl(''),
-      mobile: new FormControl(''),
-      address: new FormControl('')
+    this.orderForm = new UntypedFormGroup ({
+      fullname: new UntypedFormControl(''),
+      mobile: new UntypedFormControl(''),
+      address: new UntypedFormControl('')
     });
   }
 
