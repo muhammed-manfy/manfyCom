@@ -10,11 +10,17 @@
        <div class="col-lg-6 mt-2">
 
           <h1 class="text-muted">Enter Your Details:</h1>
-          <form class="form-order">
-                <input type="text" class="form-control" placeholder="Enter your FullName"/>
-                <input type="text" class="form-control" placeholder="Enter your Mobile"/>
-                <textarea rows="3" class="form-control" placeholder="Enter your Address"></textarea>
-                <button class="btn btn-md btn-dark mt-3">Place Order</button>&nbsp;
+          <div  class="alert alert-danger" role="alert" *ngIf="this.orderCheckbox === false">
+            please full your data to get order!
+          </div>
+          <div class="alert alert-success" role="alert" *ngIf="this.orderCheckbox === true">
+            your order is on the way 
+          </div>
+          <form class="form-order" [formGroup]="this.orderForm" (ngSubmit)="orderSubmit()">
+                <input type="text" class="form-control" formControlName="fullname" placeholder="Full Name"/>
+                <input type="text" class="form-control" formControlName="mobile" placeholder="Mobile Phone"/>
+                <textarea rows="3" class="form-control" formControlName="address" placeholder="Address Deleviery"></textarea>
+                <button type="submit" class="btn btn-md btn-dark mt-3">Place Order</button>&nbsp;
                 <a routerLink="../../Menu" class="btn btn-md btn-dark mt-3"> Back to Manu</a>
           </form>
 
